@@ -1,0 +1,44 @@
+// Trio
+// Criação:	18 Jul 2019
+// Atualização:	18 Jul 2019
+// Descrição:   Nível 1 (Entities)
+// 48  96  144 192 240  288  336  384  432  480  528  576  624  672  720
+// 768 816 864 912 960  1008 1056 1104 1152 1200 1248 1296 1344 1392 1440 
+// Informações das entities:
+// direção (0 - direita, 1 - esquerda)
+// tipos (1 - player, 2 - turret, 3 - switch, 4 - Doors, 5 - Laser Traps)
+//extras
+// caso player: direction heroType
+// caso turret: direction shootInterval needToggler toggleId active vertical
+// caso switch: tipo (7 toggler, 8 selector) toggleId
+// caso door: vertical toggleId active
+// caso laser trap: vertical toggleId active
+// extras (caso tipo 1: shoot interval, tipo 2: hero type)
+
+// tipo posX posY (extra)
+
+// PLAYERS
+1 605   -370  1 1
+1 -620   500  0 2
+
+//SWITCHS
+3 -480  20  8 1
+3 -236  500 8 2
+3 -580 -268 8 3
+
+// TURRETS
+2 -96   -231  1 0.8 0 0 0 0
+2  50   -231  0 2.0 0 0 0 0
+2 -580   57   0 1.2 1 1 0 0
+
+
+// DOORS
+
+4  312  -264  1 0 0
+4 -216   24   1 0 0
+4 -384   600  0 2 0
+
+// LASER TRAPS
+
+5 -384   648  0 0 0
+5  266   0    1 3 0
