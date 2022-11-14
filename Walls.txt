@@ -1,0 +1,19 @@
+// Breakout
+// Criação:	09 Jun 2019
+// Atualização:	09 Jun 2019
+// Descrição:   Nível 1 (Walls)
+//
+// Informações dos walls:
+// width height posX posY
+
+// left
+24 672 12 384
+
+// right
+24 672 947 384
+
+// top
+960 24 479.5 60
+
+//bottom
+//960 5 479.5 716.5
